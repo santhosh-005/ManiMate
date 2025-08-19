@@ -1,0 +1,69 @@
+{
+  "name": "manimate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "description": "Generate animations from text descriptions using Manim and Gemini API",
+  "author": "Santhosh-005",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && electron-builder",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.55",
+    "@langchain/google-genai": "^0.2.7",
+    "@langchain/groq": "^0.2.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "langchain": "^0.3.24",
+    "lucide-react": "^0.508.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@tailwindcss/vite": "^4.1.5",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "electron": "^36.1.0",
+    "electron-builder": "^26.0.12",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "tailwindcss": "^4.1.5",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "vite": "^6.3.5",
+    "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-electron-renderer": "^0.14.6"
+  },
+  "build": {
+    "appId": "com.santhosh.manimate",
+    "productName": "Animation Generator",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*"
+    ],
+    "mac": {
+      "category": "public.app-category.graphics-design"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Graphics"
+    }
+  }
+}
