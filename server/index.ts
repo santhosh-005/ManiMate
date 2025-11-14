@@ -45,7 +45,7 @@ export async function generateManimScript(description: string): Promise<string> 
     const model = new ChatGoogleGenerativeAI({
       model: "gemini-1.5-flash",
       temperature: 0.2,
-      apiKey: "AIzaSyArfQ7coeeo7LihrfwUxMvlyqChiTiPXVs"
+      apiKey: <GEMINI_API_KEY>
     });
     
 const systemPrompt = `You are a Manim animation code generator specialized in creating mathematical and scientific visualizations using only Manim Community v0.17.0.
