@@ -14,7 +14,7 @@
 
 https://github.com/user-attachments/assets/2aaaa8fc-32ba-4878-ad6b-b71fd9228e98
 
-Prompt: Generate an clip to explain Bubble & Selection Sort
+Prompt: Generate an clip to explain Sorting
 
 </td>
 
