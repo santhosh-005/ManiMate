@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><strong>ManiMate</strong></h1></h1>
+  <h1><strong>🎞️ ManiMate</strong></h1></h1>
   <p>Desktop application for generating AI-powered mathematical animation video clips using Manim.</p>
 </div>
 
