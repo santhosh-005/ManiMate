@@ -5,6 +5,30 @@
 
 ---
 
+## Samples
+
+<table>
+<tr>
+<td align="center">
+<p></p>
+
+https://github.com/user-attachments/assets/2aaaa8fc-32ba-4878-ad6b-b71fd9228e98
+
+Prompt: Generate an clip to explain Bubble & Selection Sort
+
+</td>
+
+<td align="center">
+<p></p>
+
+https://github.com/user-attachments/assets/510b3b36-0ff8-488a-8980-24de6e0c9867
+
+Prompt: Generate an clip to explain Neural Networks
+
+</td>
+</tr>
+</table>
+
 ## Overview
 
 ManiMate is a desktop application that leverages artificial intelligence to streamline the creation of mathematical animation videos. Built on Manim, a powerful mathematical animation engine, ManiMate provides an intuitive interface for editors, content creators, and mathematicians to generate professional-quality mathematical visualizations without extensive animation expertise.
